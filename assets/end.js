@@ -26,7 +26,7 @@ saveHighScore = (e) => {
   highScores.splice(3);
 
   localStorage.setItem("highScores", JSON.stringify(highScores));
-  window.location.href = "highScores.js";
+  window.location.href = "./highscores.html";
 };
 
 document.getElementById("playAgainBtn").addEventListener("click", function () {
